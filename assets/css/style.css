@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: sansation;
+    src: url(../sansation/Sansation_Regular.ttf);
+}
+
+.contactus{
+    padding-top: 30px;
+}
+
+.contactus a{
+    text-decoration: none;
+    color: #545454;
+    font-family: arial;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.head-section{
+    display: flex;
+    gap: 170px
+}
+
+.terms-section{
+    font-family: sansation;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 3.3px;
+}
+
+.text-BB2F28{
+    color: #BB2F28;
+    
+}
+
+.text-F1BF47{
+    color: #F1BF47;
+    
+}
+
+.text-ABC756{
+    color: #ABC756;
+    
+}
+
+.text-387FB7{
+    color: #387FB7;
+    
+}
+
+.section1{
+    padding-top: 40px;
+}
+
+.section1-text1{
+    color: #545454;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.section1-text2{
+    color: #545454;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.section1-text2 a{
+    color: #545454;
+}
+
+.section1-text3{
+    color: #545454;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    text-decoration-line: underline;
+}
+
+.section1-icon1 img{
+    width: 25px;
+    height: 25px;
+}
+
+.section1-text4{
+    color: #545454;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+}
+
+.section1-amazone-text{
+    color: #545454;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    display: flex;
+    align-items: flex-start;
+}
+.section2{
+    padding-top: 50px;
+}
+
+.section2-text1{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    text-align: center;
+}
+
+.section2-text2{
+    font-family: sansation;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; 
+    text-transform: uppercase;
+    display: flex;
+}
+
+.text-E39342{
+    color: #E39342;
+}
+
+.section2-text3{
+    font-weight: 500;
+}
+
+.section3{
+    padding-top: 80px;
+}
+
+.section3-text3{
+    color: #545454;   
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.register-btn{
+    border-radius: 8px;
+    background: #BB2F28;
+    padding: 8px 16px;
+    display: inline-block;
+    margin-top: 26px;
+}
+
+.register-btn a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: sansation;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.section4{
+    padding-top: 80px;
+}
+
+.section4-rectangle1{
+    position: relative;
+}
+
+.section4-rectangletext{
+    position: absolute;
+    left: 30px;
+    top: 4px;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px; 
+}
+
+.section4-price{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+}
+
+.section5{
+    padding-top: 70px;
+}
+
+.section6{
+    padding-top: 70px;
+}
+
+.footer-section{
+    padding-top: 60px;
+}
+
+.mob-section1-text1{
+    display: flex;
+    text-align: left;
+}
+
+.arrow-img img{
+    width: 26px;
+}
+
+.member-card-img img{
+    width: 32px;
+    height: 32px;
+}
+
+.money-bags-img img{
+    width: 32px;
+    height: 26px;
+}
+
+.siblings-img img{
+    width: 32px;
+}
+
+.money-transferimg img{
+    width: 40px;
+}
+
+.mobile-money-img{
+    display: flex;
+    align-items: center;
+}
+@media screen and  (max-width:767px) {
+
+    .terms-section{
+        font-size: 28px;
+    }
+
+    .mob-section1{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .section1-text1{
+        font-size: 18px;
+    }
+
+    .section2-text1 img{
+        width: 24px;
+        height: 24px;
+    }
+
+    .section1-text2,
+    .section1-text4{
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .section2-text2{
+        font-size: 20px;
+    }
+
+    .section2{
+        padding-top: 30px;
+    }
+
+    .section1-text3{
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .section3{
+        padding-top: 30px;
+    }
+
+    .section2-text1{
+        gap: 8px;
+    }
+
+    .register-btn{
+        width: 100%;
+        text-align: center;
+    }
+
+    .section4{
+        padding-top: 40px;
+    }
+
+    .section4-rectangletext{
+        font-size: 16px;
+    }
+
+    .section4-price{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .mobile-section1-text4{
+        flex-direction: column;
+        text-align: left;
+        align-items: start;
+        gap: 10px;
+    }
+    
+    .mob-price-section{
+        display: flex;
+        align-items: baseline;
+        gap: 30px;
+    }
+    
+    .section6,
+    .section5{
+        padding-top: 40px;
+    }
+
+    .mob-reward-img img{
+        width: 28px;
+    }
+}
+  
